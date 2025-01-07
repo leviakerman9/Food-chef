@@ -70,7 +70,7 @@ class CartFragment : Fragment() {
         val foodIngredient = mutableListOf<String>()
         val foodQuantities = cartAdapter.getUpdatedItemQuantities()
 
-        orderIdReference.addListenerForSingleValueEvent()
+//        orderIdReference.addListenerForSingleValueEvent()
     }
 
     private fun retrieveCartItems() {
